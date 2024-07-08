@@ -58,12 +58,13 @@ To use the scripts and data processing steps outlined in this project, follow th
    ```bash
    git clone https://github.com/yourusername/perturb-seq.git
    cd perturb-seq
+   pip install -r requirements.txt
+   python preprocess_data.py
+   python quality_control.py
+   python clustering.py
+   python analysis.py
+   python visualize.py
 
 
-pip install -r requirements.txt
-python preprocess_data.py
-python quality_control.py
-python clustering.py
-python analysis.py
-python visualize.py
+
 
